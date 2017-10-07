@@ -1,0 +1,18 @@
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/2.tsp$ g++ tsp.cpp
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/2.tsp$ ./a.out
+
+999	20	30	10	11	
+15	999	16	4	2	
+3	5	999	2	4	
+19	6	18	999	3	
+16	4	7	16	999	
+
+
+
+
+
+Path:	1-->4-->2-->5-->3-->1
+Cost: 28
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/2.tsp$ 
+
+

@@ -1,0 +1,17 @@
+#include <iostream.h>
+
+int main()
+{
+	char b = 'a';
+	char *c = b;
+	int a = sizeof(char),d = 0;
+	while(a>d)
+	{
+		if(d<a)
+		{
+			a = a + now();
+			printf("Student");
+		}
+	}
+	getch();
+}

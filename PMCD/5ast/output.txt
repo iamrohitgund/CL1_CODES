@@ -1,0 +1,20 @@
+rohit@rohit-Vostro-3800:~/Desktop/Rohit CL 1/PMCD/5ast$ flex ast.l
+rohit@rohit-Vostro-3800:~/Desktop/Rohit CL 1/PMCD/5ast$ byacc -d ast.y
+rohit@rohit-Vostro-3800:~/Desktop/Rohit CL 1/PMCD/5ast$ gcc y.tab.c lex.yy.c -lly.tab.c: In function ‘yyparse’:
+y.tab.c:62:16: warning: implicit declaration of function ‘yylex’ [-Wimplicit-function-declaration]
+ # define YYLEX yylex()
+                ^
+y.tab.c:316:23: note: in expansion of macro ‘YYLEX’
+         if ((yychar = YYLEX) < 0) yychar = YYEOF;
+                       ^
+ast.y:40:44: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘node * {aka struct node *}’ [-Wformat=]
+ num     : NUMBER           {char buf[10]; snprintf(buf, sizeof(buf), "%d",yylva
+                                            ^
+ast.y:40:44: warning: format ‘%d’ expects argument of type ‘int’, but argument 4 has type ‘node * {aka struct node *}’ [-Wformat=]
+rohit@rohit-Vostro-3800:~/Desktop/Rohit CL 1/PMCD/5ast$ ./a.out
+Enter an arithmetic expression: 	3+4-5/2*7-1;
+
+The Abstract Syntax Tree is (preorder traversal) : ( - ( - ( +  3  4 )( * ( /  5  2 ) 7 )) 1 )
+
+
+

@@ -1,0 +1,23 @@
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/3.0-1 knapsack$ g++ knapsack.cpp 
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/3.0-1 knapsack$ ./a.out
+Enter the total number of Objects: 4
+Enter the profit and the weight for object 1 :
+10 2
+Enter the profit and the weight for object 2 :
+10 3
+Enter the profit and the weight for object 3 :
+12 6
+Enter the profit and the weight for object 4 :
+18 7
+Enter the capacity of Knapsack: 15
+Input is: 
+Tuple	Profit	Weight	Ratio
+1	10	2	5
+2	10	3	3.33333
+3	18	7	2
+4	12	6	2
+
+Solution= 1	0	1	1	
+Max profit: 40
+rohit@rohit-Vostro-3800:~/Documents/CL1 and CL2/cl1/daa/3.0-1 knapsack$ 
+
